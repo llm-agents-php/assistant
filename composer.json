@@ -1,0 +1,27 @@
+{
+  "name": "llm/assistant",
+  "description": "LLM Assistant",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "llm-agents/agents": "^1.3",
+    "llm-agents/openai-client": "^1.0",
+    "llm-agents/json-schema-mapper": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "LLM\\Assistant\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "php-http/discovery": false
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
